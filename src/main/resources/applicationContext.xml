@@ -16,7 +16,6 @@ http://www.springframework.org/schema/data/mongo http://www.springframework.org/
            max-wait-time: 被阻塞线程从连接池获取连接的最长等待时间（ms）
            connect-timeout:在建立（打开）套接字连接时的超时时间（ms）
            socket-timeout:套接字超时时间;该值会被传递给Socket.setSoTimeout(int)
-           slave-ok:指明是否答应驱动从次要节点或者奴隶节点读取数据
            -->
         <mongo:client-options
                 connections-per-host="${mongo.connectionsPerHost}"
